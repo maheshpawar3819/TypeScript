@@ -21,3 +21,23 @@ var login = function (usreName, password, feesPAID) {
     console.log(usreName, password, feesPAID);
 };
 login("maheshp", "mahi123");
+//function with specify return type
+function num(num) {
+    return num;
+}
+console.log(num(100));
+//arrow function
+var nm = function (name) {
+    return name;
+};
+console.log(nm("mahesh"));
+var data = ["mahesh", "sanket", "suraj", "pravin"];
+var result = data.map(function (ele) {
+    return ele;
+});
+console.log(result);
+//case if you does't want to retrun any thing
+function consoleError(errorMsg) {
+    console.log(errorMsg);
+}
+consoleError("Server side error");
