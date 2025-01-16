@@ -17,3 +17,9 @@ var nested = [
     [4, 5, 6]
 ];
 console.log(nested);
+//Readonly Array
+var arr = ["mahesh", "ashwini", "shiv", "jay"];
+// //you cannot push or doing any operation on the array because of define this array as readonly array
+// arr.push("karan");
+console.log(arr.indexOf("ashwini"));
+console.log(arr);

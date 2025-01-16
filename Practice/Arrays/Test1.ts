@@ -28,4 +28,14 @@ const nested:number [][]=[
 ]
 console.log(nested);
 
+
+//Readonly Array
+let arr : readonly string [] = ["mahesh","ashwini","shiv","jay"];
+// //you cannot push or pop any element of the array  because of define this array as readonly array
+// arr.push("karan");
+
+console.log(arr.indexOf("ashwini"));
+
+console.log(arr);
+
 export {};
